@@ -16,13 +16,20 @@
    For each of them, describe what its purpose is.
    You may **use outside sources** for help, but you must explain them in your own words.
 
-
+    1)Instantiate an XMLHttpRequest object for the web browser where the script will run
+    2)Use the XMLHttpRequest object to send a request to the server
+    3)Receive the response from the server containing the requested data
+    4) Process the data returned from the server, and incorporate the data into the app.
 
 4. 
    Please list each of the five status ranges that can be received for an **HTTP request-response**.
    For each of them, describe what its purpose is.
    You may **use outside sources** for help, but you must explain them in your own words.
-
+    1xx: (informational) - Request received
+    2xx: (success) - Request successful
+    3xx: (redirection) - Request cannot be completed without further action
+    4xx: (client error) - Request cannot be fulfilled due to a client error
+    5xx: serious trouble of some type
 
 
 5. 
