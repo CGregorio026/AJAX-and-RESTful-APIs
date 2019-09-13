@@ -37,7 +37,7 @@
    **Use outside sources** for help and to find at least 3 Web Services you might consider using in your website applications.
 
 
-
+    A web service is a client to propagate communication between the web server and the client.
 
 6. Please describe in detail, in your own words, an **XMLHttpRequest object**.
    What should be done to build one for use in your application and to protect that process.**You do not need** to **use outside sources** for help.
