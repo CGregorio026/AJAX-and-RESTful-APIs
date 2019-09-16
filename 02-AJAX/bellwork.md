@@ -25,26 +25,23 @@
    Please list each of the five status ranges that can be received for an **HTTP request-response**.
    For each of them, describe what its purpose is.
    You may **use outside sources** for help, but you must explain them in your own words.
+
     1xx: (informational) - Request received
     2xx: (success) - Request successful
     3xx: (redirection) - Request cannot be completed without further action
     4xx: (client error) - Request cannot be fulfilled due to a client error
     5xx: serious trouble of some type
 
-
 5. 
    Please describe in detail, in your own words, what a **Web Service** is and what their general purpose are.
    **Use outside sources** for help and to find at least 3 Web Services you might consider using in your website applications.
 
-
-    A web service is a client to propagate communication between the web server and the client.
+    A web service is a client to propagate communication between the web server and the client. Examples are SoapUI, XML, and Apache Axis. These all help to communicate data with the server, and send it back to the user.
 
 6. Please describe in detail, in your own words, an **XMLHttpRequest object**.
    What should be done to build one for use in your application and to protect that process.**You do not need** to **use outside sources** for help.
 
-
-
-
+    
 
 7. 
    Please describe in detail, in your own words, the **steps** you must take to send an **AJAX request**.
