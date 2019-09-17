@@ -18,12 +18,12 @@ function getRequestObject() {
    // alert("country boyyy i love youuu");
    try {
       httpRequest = new XMLHttpRequest();
-  } catch (requestError) {
+   } catch (requestError) {
       document.querySelector("p.error").innerHTML = "Forecast not supported by your browser.";
       document.querySelector("p.error").style.display = "block";
       return false;
-  }
-  return httpRequest;
+   }
+   return httpRequest;
 }
 
 function getWeather(evt) {
@@ -50,16 +50,35 @@ function getWeather(evt) {
    if (!httpRequest) {
       httpRequest = getRequestObject();
    }
-   
+
    httpRequest.abort();
    httpRequest.open("get", "solar.php?" + "lat=" + latitude + "&lng=" + longitude, true);
    httpRequest.send(null);
    httpRequest.onreadystatechange = fillWeather;
 }
 
-function fillWeather(){
+function fillWeather() {
+   // for (var i = 0; i < rows.length; i++) {
+   //    var firstCell = rows[i].getElementsByTagName("td")[0];
+   //    var secondCell = rows[i].getElementsByTagName("td")[1];
+   //    var thirdCell = rows[i].getElementsByTagName("td")[2];
+   //    firstCell.innerHTML = days[dayOfWeek];
+   //    if (dayOfWeek + 1 === 7) {
+   //       dayOfWeek = 0;
+   //    } else {
+   //       dayOfWeek++;
+   //    }
+   // }
+
    if (httpRequest.readyState === 4 && httpRequest.status === 200) {
       weatherReport = JSON.parse(httpRequest.responseText);
+      var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+      var dateValue = new Date(weatherReport.daily.data[0].time);
+      var dayOfWeek = dateValue.getDay();
+      var rows = document.querySelectorAll("section.week table tbody tr");
+      document.querySelector("section.week table caption").innerHTML = selectedCity;
+      document.querySelector("section.week table caption").style.display = "block";
+      document.querySelector("section.week table").style.display = "inline-block";
    }
 }
 var locations = document.querySelectorAll("section ul li");
