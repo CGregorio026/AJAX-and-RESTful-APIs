@@ -3,7 +3,7 @@
    For **each letter**, describe what the **purpose** is. 
    You may **use outside sources** for help, but you must explain them in your own words.
 
-   Linux, Angular, MongoDB, and PHP. Linux is the OS, Angular is a framework, Mongo is the Database used for the collection of data, and PHP is a general purpose Hypertext editor created for web development
+   Linux, Angular, MongoDB, and PHP. Linux is the OS, Angular is a framework, Mongo is the Database used for the collection of data, and PHP is a general purpose Hypertext editor created for web development.
 
 2. Please list each of the four most used HTTP verbs. 
    For each of them, describe what its purpose is. 
@@ -48,7 +48,8 @@
    Describe in detail each method, its purpose, and its parameters.
    **You do not need** to **use outside sources** for help.
 
-
+   xhttp.open("GET", "ajax_info.txt", true);
+   xhttp.send();
 
 
 8. 

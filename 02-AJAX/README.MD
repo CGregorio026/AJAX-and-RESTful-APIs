@@ -11,14 +11,14 @@
 - [Step 4 - Adding Response Data to the Page](#step-4---adding-response-data-to-the-page)
 
 ## Checklist
-- [ ] Read the Instructions
-- [ ] Step 1 - Docker-Compose is running
-- [ ] Step 2 - Chrome Network Tools
-- [ ] Step 3 - Examining PHP Proxy and Getting API Key
-- [ ] Step 4 - Instantiating an XMLHttpRequest Object
-- [ ] Step 5 - Opening and Sending a Request
-- [ ] Step 6 - Processing Response Data
-- [ ] Step 7 - Adding Response Data to the Page
+- [✔] Read the Instructions
+- [✔] Step 1 - Docker-Compose is running
+- [✔] Step 2 - Chrome Network Tools
+- [✔] Step 3 - Examining PHP Proxy and Getting API Key
+- [✔] Step 4 - Instantiating an XMLHttpRequest Object
+- [✔] Step 5 - Opening and Sending a Request
+- [✔] Step 6 - Processing Response Data
+- [✔] Step 7 - Adding Response Data to the Page
 
 ## Instructions
 In this Exercise, we will learn how to open files from a web server. we will also learn how to retrieve dynamic data from the server to update the client application. We will make use of AJAX to accomplish this.
