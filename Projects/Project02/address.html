@@ -4,8 +4,8 @@
    <!--
       Project 01_11_04
       
-      Author: 
-      Date:   
+      Author: Christian Gregorio
+      Date: 9.18.19
 
       Filename: address.html
    -->
@@ -24,6 +24,7 @@
    </header>
 
    <article>
+      
       <h2>Address</h2>
       <form>
          <fieldset id="zipset">
@@ -37,7 +38,16 @@
             <label for="state" id="statelabel">State</label>
             <input id="state" type="text" />
          </fieldset>
+
+         <fieldset id="countryset">
+               <label for="germany" id="germanylabel">Germany</label>
+               <input id="germany" type="radio" value="germany" 
+                   name="country" />
+               <label for="us" id="uslabel">United States</label>
+               <input id="us" type="radio" value="us" name="country" />
+           </fieldset>
       </form>
+      
    </article>
    <script src="script.js"></script>
 </body>
